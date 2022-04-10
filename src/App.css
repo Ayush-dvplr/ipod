@@ -1,0 +1,31 @@
+/*making some default css*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*styling ipod layout*/
+
+.ipod{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 530px;
+    width: 290px;
+    background-color: lightgrey;
+    border-radius: 9%;
+    border: 7px groove grey;
+    box-shadow: 10px 20px 8px lightgrey;
+    
+}

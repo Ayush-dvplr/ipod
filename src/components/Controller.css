@@ -1,0 +1,70 @@
+.controller-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+}
+
+.controller{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+/*avoid from selecting and highlighting text*/
+
+.unselectable {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+  }
+
+.select-btn{
+    height: 75px;
+    width: 75px;
+    background-color: slategrey;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.controller-wrapper img {
+    width: 25px;
+    height: 18px;
+    color: gray;
+}
+
+.cntr-menu{
+    font-size: 13px;
+    font-weight: 700;
+    position: absolute;
+    top: 30px;
+    left: 74px;
+    height: 30px;
+    width: 50px;
+}
+
+.play-nxt{
+    position: absolute;
+    top: 90px;
+    left: 150px;
+}
+
+.pause {
+    position: absolute;
+    top: 155px;
+    left: 85px;
+}
+
+.prev {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}

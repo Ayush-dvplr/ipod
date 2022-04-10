@@ -1,0 +1,18 @@
+.cover_flow-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6F61;
+
+}
+
+.cover_flow-page h2 {
+    font-family: cursive;
+    color: white;
+}

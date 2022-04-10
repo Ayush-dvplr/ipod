@@ -1,0 +1,15 @@
+.screen {
+    height: 275px;
+    width: 275px;
+    border: 4px solid black;
+    border-radius: 5%;
+    margin-bottom: 30px;
+    margin: auto;
+    background-image: url('https://images.all-free-download.com/images/graphiclarge/beautiful_scenery_04_hd_pictures_166258.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    position: relative;
+}
+
+
