@@ -1,4 +1,4 @@
-import './Cover_flow.css'
+import './css/Cover_flow.css'
 
 const Cover_flow = () => {
     return(

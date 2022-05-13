@@ -1,4 +1,4 @@
-import './Game.css'
+import './css/Game.css'
 
 const Game = (props) => {
     return(

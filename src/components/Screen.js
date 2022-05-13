@@ -1,4 +1,4 @@
-import './Screen.css'
+import './css/Screen.css'
 import Menu from './Menu';
 import Settings from './Settings';
 import Game from './Game';
@@ -8,12 +8,12 @@ import Music from './Music';
 
 const Screen = (props) => {
     
-    const {page} = props;
+    const {page,playlist,musicIndex} = props;
     return ( <div className="screen">
         <Menu/>
         {page=="home"?<Home/>:""}
         {page=="cover_flow"?<Cover_flow/>:""}
-        {page=="music"?<Music/>:""}
+        {page=="music"?<Music playlist={playlist} musicIndex={musicIndex}/>:""}
         {page=="games"?<Game/>:""}
         {page=="settings"?<Settings/>:""}
     </div>)

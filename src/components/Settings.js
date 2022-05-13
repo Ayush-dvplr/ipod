@@ -1,4 +1,4 @@
-import './Settings.css'
+import './css/Settings.css'
 
 const Settings = (props) => {
     return(
